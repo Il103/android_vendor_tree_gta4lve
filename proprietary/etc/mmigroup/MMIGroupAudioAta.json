@@ -1,0 +1,70 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Speaker1",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_left_top_ata"
+        ],
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "Speaker2",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_left_btn_ata"
+        ],
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "Speaker3",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_right_top_ata"
+        ],
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "Speaker4",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_right_btn_ata"
+        ],
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "MainMic",
+      "paramconfig": {
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic_ata"
+        ]
+      }
+    },
+    {
+      "showName": "SubMic",
+      "paramconfig": {
+        "audioConfig": [
+          "mmitest=on;inputdevice=submic_ata"
+        ]
+      }
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "HsMicToHeadPhone"
+    }
+  ]
+}

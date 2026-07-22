@@ -1,0 +1,3 @@
+on post-fs-data
+    mkdir /data/vendor/mg_grdm_unlock 0775 system system
+    mkdir /data/vendor/mg_grdm_unlock/images 0775 system system

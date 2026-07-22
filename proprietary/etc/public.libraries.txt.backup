@@ -1,0 +1,16 @@
+libBokeh2Frames.so
+libDefog.so
+libOpenCL.so
+libOpenCL.so.1
+libOpenCL.so.1.1
+libOpenCL.so.1.2
+libSegLite.so
+libTfliteWrapper.so
+libbokeh_gaussian_cap.so
+libinfo.so
+libinterface.so
+libjpeg_hw_sprd.so
+libkey.so
+libportrait_scene_cap.so
+libsprdbokeh.so
+libverify.so

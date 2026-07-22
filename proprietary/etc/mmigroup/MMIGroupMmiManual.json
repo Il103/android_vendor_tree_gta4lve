@@ -1,0 +1,117 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "LCD"
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "SMARTPA"
+    },
+    {
+      "showName": "MainMicToSpeaker"
+    },
+    {
+      "showName": "SubMicToSpeaker"
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "OTG",
+      "paramconfig": {
+        "support_typec": false
+      }
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": true,
+        "support_angle45": true,
+        "support_angleneg45": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Sar"
+    },
+    {
+      "showName": "Speaker1"
+    },
+    {
+      "showName": "Speaker2"
+    },
+    {
+      "showName": "Speaker3"
+    },
+    {
+      "showName": "Speaker4"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "MainSIMCard"
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "paramconfig": {
+        "needHeadsetUnPlug": true
+      }
+    },
+    {
+      "showName": "TouchPal"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_test": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "Magnetic"
+    }
+  ]
+}
