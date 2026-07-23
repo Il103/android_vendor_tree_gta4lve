@@ -488,11 +488,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4lve/proprietary/logo/time_vert_24x12x13.yuv:$(TARGET_COPY_OUT_VENDOR)/logo/time_vert_24x12x13.yuv \
     vendor/samsung/gta4lve/proprietary/logo/time_vert_48x24x13.yuv:$(TARGET_COPY_OUT_VENDOR)/logo/time_vert_48x24x13.yuv \
     vendor/samsung/gta4lve/proprietary/logo/time_vert_72x36x13.yuv:$(TARGET_COPY_OUT_VENDOR)/logo/time_vert_72x36x13.yuv \
-    vendor/samsung/gta4lve/proprietary/overlay/framework-res__auto_generated_rro_vendor.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/framework-res__auto_generated_rro_vendor.apk \
-    vendor/samsung/gta4lve/proprietary/overlay/SoftapOverlayWpa3/SoftapOverlayWpa3.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/SoftapOverlayWpa3/SoftapOverlayWpa3.apk \
-    vendor/samsung/gta4lve/proprietary/overlay/TetheringOverlay_Gsi/TetheringOverlay_Gsi.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/TetheringOverlay_Gsi/TetheringOverlay_Gsi.apk \
-    vendor/samsung/gta4lve/proprietary/overlay/SoftapOverlay/SoftapOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/SoftapOverlay/SoftapOverlay.apk \
-    vendor/samsung/gta4lve/proprietary/overlay/TetheringOverlay/TetheringOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/TetheringOverlay/TetheringOverlay.apk \
     vendor/samsung/gta4lve/proprietary/apex/com.samsung.android.camera.unihal.signed.apex:$(TARGET_COPY_OUT_VENDOR)/apex/com.samsung.android.camera.unihal.signed.apex \
     vendor/samsung/gta4lve/proprietary/apex/com.samsung.android.wifi.broadcom.signed.apex:$(TARGET_COPY_OUT_VENDOR)/apex/com.samsung.android.wifi.broadcom.signed.apex \
     vendor/samsung/gta4lve/proprietary/app/anc_face_unlock/anc_model_file:$(TARGET_COPY_OUT_VENDOR)/app/anc_face_unlock/anc_model_file \
@@ -1753,3 +1748,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4lve/proprietary/odm/etc/vintf/manifest_wifionly.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_wifionly.xml \
     vendor/samsung/gta4lve/proprietary/odm/etc/permissions/sku_wifionly/unavailable-telephony-feature.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_wifionly/unavailable-telephony-feature.xml
 \
+
+PRODUCT_PACKAGES += \
+    framework-res__auto_generated_rro_vendor \
+    SoftapOverlayWpa3 \
+    TetheringOverlay_Gsi \
+    SoftapOverlay \
+    TetheringOverlay

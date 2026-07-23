@@ -1529,11 +1529,6 @@ odm/etc/NOTICE.xml.gz
 odm/etc/passwd
 odm/etc/permissions/sku_wifionly/unavailable-telephony-feature.xml
 odm/etc/vintf/manifest_wifionly.xml
-overlay/framework-res__auto_generated_rro_vendor.apk
-overlay/SoftapOverlay/SoftapOverlay.apk
-overlay/SoftapOverlayWpa3/SoftapOverlayWpa3.apk
-overlay/TetheringOverlay_Gsi/TetheringOverlay_Gsi.apk
-overlay/TetheringOverlay/TetheringOverlay.apk
 recovery-from-boot.p
 ueventd.rc
 usr/idc/adaptive_ts.idc
