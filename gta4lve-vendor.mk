@@ -853,34 +853,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4lve/proprietary/etc/hyper/config_chipset.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_chipset.json \
     vendor/samsung/gta4lve/proprietary/etc/hyper/config_hyper_permission.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_hyper_permission.json \
     vendor/samsung/gta4lve/proprietary/etc/hyper/config_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_vendor.json \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/compatibility_matrix.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.cas@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.dumpstate@1.1-service-lazy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.dumpstate@1.1-service-lazy.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.usb@1.3-service.coral.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb@1.3-service.coral.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/engmode_manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/engmode_manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/hyper-default-sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/hyper-default-sec.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/lights-default-sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lights-default-sec.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest_trusty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_trusty.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/rebootescrow-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/rebootescrow-default.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/sec_c2_manifest_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/sec_c2_manifest_default.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vaultkeeper_manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vaultkeeper_manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor-power-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor-power-default.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg@1.0-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg@1.0-manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.wifi.hostapd.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.sprd.hardware.thermal@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.thermal@2.0-service.xml \
     vendor/samsung/gta4lve/proprietary/etc/enhance/3d_lut.xml:$(TARGET_COPY_OUT_VENDOR)/etc/enhance/3d_lut.xml \
     vendor/samsung/gta4lve/proprietary/etc/enhance/abc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/enhance/abc.xml \
     vendor/samsung/gta4lve/proprietary/etc/enhance/bld.xml:$(TARGET_COPY_OUT_VENDOR)/etc/enhance/bld.xml \
@@ -1745,7 +1717,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4lve/proprietary/odm/etc/build.prop:$(TARGET_COPY_OUT_ODM)/etc/build.prop \
     vendor/samsung/gta4lve/proprietary/odm/etc/group:$(TARGET_COPY_OUT_ODM)/etc/group \
     vendor/samsung/gta4lve/proprietary/odm/etc/passwd:$(TARGET_COPY_OUT_ODM)/etc/passwd \
-    vendor/samsung/gta4lve/proprietary/odm/etc/vintf/manifest_wifionly.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_wifionly.xml \
     vendor/samsung/gta4lve/proprietary/odm/etc/permissions/sku_wifionly/unavailable-telephony-feature.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_wifionly/unavailable-telephony-feature.xml
 \
 
@@ -1755,3 +1726,41 @@ PRODUCT_PACKAGES += \
     TetheringOverlay_Gsi \
     SoftapOverlay \
     TetheringOverlay
+
+# VINTF manifest files (individual fragments)
+DEVICE_MANIFEST_FILE += \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.cas@1.2-service.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.dumpstate@1.1-service-lazy.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.usb@1.3-service.coral.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/engmode_manifest.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/hyper-default-sec.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/lights-default-sec.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest_trusty.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/rebootescrow-default.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/sec_c2_manifest_default.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vaultkeeper_manifest.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor-power-default.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg@1.0-manifest.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.wifi.hostapd.xml \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.sprd.hardware.thermal@2.0-service.xml
+
+# VINTF compatibility matrix
+DEVICE_MATRIX_FILE += \
+    vendor/samsung/gta4lve/proprietary/etc/vintf/compatibility_matrix.xml
+
+# ODM VINTF manifest
+ODM_MANIFEST_FILES += \
+    vendor/samsung/gta4lve/proprietary/odm/etc/vintf/manifest_wifionly.xml
