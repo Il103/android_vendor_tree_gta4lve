@@ -1728,39 +1728,14 @@ PRODUCT_PACKAGES += \
     TetheringOverlay
 
 # VINTF manifest files (individual fragments)
-DEVICE_MANIFEST_FILE += \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.cas@1.2-service.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.dumpstate@1.1-service-lazy.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.usb@1.3-service.coral.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/engmode_manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/hyper-default-sec.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/lights-default-sec.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest_trusty.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/rebootescrow-default.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/sec_c2_manifest_default.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vaultkeeper_manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor-power-default.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg@1.0-manifest.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.samsung.hardware.wifi.hostapd.xml \
-    vendor/samsung/gta4lve/proprietary/etc/vintf/manifest/vendor.sprd.hardware.thermal@2.0-service.xml
 
-# VINTF compatibility matrix
+# VINTF compatibility matrix (not handled by Android.bp)
 DEVICE_MATRIX_FILE += \
     vendor/samsung/gta4lve/proprietary/etc/vintf/compatibility_matrix.xml
 
-# ODM VINTF manifest
+# ODM VINTF manifest (not handled by Android.bp)
 ODM_MANIFEST_FILES += \
     vendor/samsung/gta4lve/proprietary/odm/etc/vintf/manifest_wifionly.xml
+
+# Full device VINTF manifest (not handled by Android.bp fragments)
+DEVICE_MANIFEST_FILE +=     vendor/samsung/gta4lve/proprietary/etc/vintf/manifest.xml
